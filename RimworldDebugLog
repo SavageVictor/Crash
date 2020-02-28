@@ -1,0 +1,1431 @@
+RimWorld 1.1.2558 rev1000
+Verse.Log:Message(String, Boolean)
+RimWorld.VersionControl:LogVersionNumber()
+Verse.Root:CheckGlobalInit()
+Verse.Root:Start()
+Verse.Root_Entry:Start()
+
+Mod Mod Manager is missing packageId in About.xml! (example: <packageId>AuthorName.ModName.Specific</packageId>)
+Verse.Log:Warning(String, Boolean)
+Verse.ModMetaDataInternal:TryParsePackageId(Boolean, Boolean)
+Verse.ModMetaData:Init()
+Verse.ModMetaData:.ctor(String, Boolean)
+Verse.ModLister:RebuildModList()
+Verse.Steam.WorkshopItems:RebuildItemsList()
+Verse.Steam.WorkshopItems:.cctor()
+Verse.ModLister:RebuildModList()
+Verse.ModLister:.cctor()
+Verse.ModsConfig:.cctor()
+Verse.LoadedModManager:InitializeMods()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[HugsLib] version 7.0.1
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:InitializeController()
+HugsLib.HugsLibController:EarlyInitialize()
+HugsLib.Core.HugsLibMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+DubsMintMenus v1.2.600
+Verse.Log:Message(String, Boolean)
+DubsMintMenus.DubsMintMenusMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[MadSkills]: settings initialized, multiplier is 0, not tiered, daily XP threshold is 100000, saturated XP multiplier is 0.2, Great Memory trait is altered.
+Verse.Log:Message(String, Boolean)
+RTMadSkills.ModSettings:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Deep:Look(ModSettings&, Boolean, String, Object[])
+Verse.Scribe_Deep:Look(ModSettings&, String, Object[])
+Verse.LoadedModManager:ReadModSettings(String, String)
+Verse.Mod:GetSettings()
+RTMadSkills.Mod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[MFM] EPOE found
+Verse.Log:Message(String, Boolean)
+aRandomKiwi.MFM.MercenariesForMe:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Rimefeller 1.2.700
+Verse.Log:Message(String, Boolean)
+Rimefeller.RimefellerMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Rimatomics 1.7.2010
+Verse.Log:Message(String, Boolean)
+Rimatomics.RimatomicsMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+ExtendedStorage :: 4.0.1.2 - Starting Harmony Patch...
+Verse.Log:Message(String, Boolean)
+ExtendedStorage.ExtendedStorageMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+ExtendedStorage :: 4.0.1.2 - Harmony patches applied.
+Verse.Log:Message(String, Boolean)
+ExtendedStorage.ExtendedStorageMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+ExtendedStorage :: 4.0.1.2 - No further Patches detected...
+Verse.Log:Message(String, Boolean)
+ExtendedStorage.ExtendedStorageMod:.ctor(ModContentPack)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoCMethod:InternalInvoke(Object, Object[])
+System.Reflection.MonoCMethod:DoInvoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MonoCMethod:Invoke(BindingFlags, Binder, Object[], CultureInfo)
+System.RuntimeType:CreateInstanceImpl(BindingFlags, Binder, Object[], CultureInfo, Object[], StackCrawlMark&)
+System.Activator:CreateInstance(Type, BindingFlags, Binder, Object[], CultureInfo, Object[])
+System.Activator:CreateInstance(Type, Object[])
+Verse.LoadedModManager:CreateModClasses()
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+LWM Deep Storage: activated compatibility patch for VGP Garden Fabrics
+Verse.Log:Message(String, Boolean)
+LWM.DeepStorage.PatchMessage:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.PatchOperationSequence:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.PatchOperationFindMod:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.LoadedModManager:ApplyPatches(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+LWM Deep Storage: activated compatibility patch for VGP Vegetable Garden
+Verse.Log:Message(String, Boolean)
+LWM.DeepStorage.PatchMessage:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.PatchOperationSequence:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.PatchOperationFindMod:ApplyWorker(XmlDocument)
+Verse.PatchOperation:Apply(XmlDocument)
+Verse.LoadedModManager:ApplyPatches(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Parsed 0.1 as int.
+Verse.Log:Warning(String, Boolean)
+Verse.ParseHelper:ParseIntPermissive(String)
+Verse.ParseHelper:FromString(String)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ListFromXml(XmlNode)
+Verse.DirectXmlToObject:ListFromXmlReflection(XmlNode)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlLoader:DefFromNode(XmlNode, LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Parsed 0.01 as int.
+Verse.Log:Warning(String, Boolean)
+Verse.ParseHelper:ParseIntPermissive(String)
+Verse.ParseHelper:FromString(String)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ListFromXml(XmlNode)
+Verse.DirectXmlToObject:ListFromXmlReflection(XmlNode)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXml(XmlNode, Boolean)
+Verse.DirectXmlToObject:ObjectFromXmlReflection(XmlNode, Boolean)
+Verse.DirectXmlLoader:DefFromNode(XmlNode, LoadableXmlAsset)
+Verse.LoadedModManager:ParseAndProcessXML(XmlDocument, Dictionary`2)
+Verse.LoadedModManager:LoadAllActiveMods()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Could not resolve cross-reference: No Verse.SoundDef named X_AdestoryerHit found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.<>c__DisplayClass14_1:<ResolveAllWantedCrossReferences>b__0(WantedRef)
+Verse.<>c__DisplayClass6_1`1:<ParallelForEach>b__0(Object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback()
+
+Could not resolve cross-reference: No Verse.SoundDef named X_VdestoryerHit found to give to Verse.StuffProperties Verse.StuffProperties (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.<>c__DisplayClass14_1:<ResolveAllWantedCrossReferences>b__0(WantedRef)
+Verse.<>c__DisplayClass6_1`1:<ParallelForEach>b__0(Object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback()
+
+Could not resolve cross-reference: No Verse.SoundDef named Electric found to give to Verse.VerbProperties VerbProperties(tazing-turret gun) (using undefined sound instead)
+Verse.Log:Warning(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.<>c__DisplayClass14_1:<ResolveAllWantedCrossReferences>b__0(WantedRef)
+Verse.<>c__DisplayClass6_1`1:<ParallelForEach>b__0(Object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback()
+
+Could not resolve cross-reference: No RimWorld.StatDef named TailoringSpeed found to give to Verse.RecipeDef RB_MakeSynthreadCloth
+Verse.Log:Error(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.<>c__DisplayClass14_1:<ResolveAllWantedCrossReferences>b__0(WantedRef)
+Verse.<>c__DisplayClass6_1`1:<ParallelForEach>b__0(Object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback()
+
+Could not resolve cross-reference: No RimWorld.StatDef named TailoringSpeed found to give to Verse.RecipeDef RB_MakeHyperweaveCloth
+Verse.Log:Error(String, Boolean)
+Verse.WantedRefForObject:TryResolve(FailMode)
+Verse.<>c__DisplayClass14_1:<ResolveAllWantedCrossReferences>b__0(WantedRef)
+Verse.<>c__DisplayClass6_1`1:<ParallelForEach>b__0(Object)
+System.Threading.QueueUserWorkItemCallback:WaitCallback_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.QueueUserWorkItemCallback:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+System.Threading.ThreadPoolWorkQueue:Dispatch()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback()
+
+[MadSkills]: changed behavior of Great Memory trait.
+Verse.Log:Message(String, Boolean)
+RTMadSkills.ModSettingsDefJockey:ApplyChanges(Boolean)
+RTMadSkills.ModSettingsDefJockey:Postfix()
+RimWorld.DefGenerator:DMD<DMD<GenerateImpliedDefs_PostResolve_Patch1>?-558921088::GenerateImpliedDefs_PostResolve_Patch1>()
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Config error in SoSShuttlecraft: no parts vulnerable to frostbite
+Verse.Log:Error(String, Boolean)
+Verse.DefDatabase`1:ErrorCheckAllDefs()
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.GenGeneric:InvokeStaticMethodOnGenericType(Type, Type, String)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+BodyDef Ninetailfox has BodyPartRecord of Head whose children have more or equal coverage than 100% (100.00%)
+Verse.Log:Warning(String, Boolean)
+Verse.<ConfigErrors>d__12:MoveNext()
+Verse.DefDatabase`1:ErrorCheckAllDefs()
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.GenGeneric:InvokeStaticMethodOnGenericType(Type, Type, String)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Config error in ThrumboMilkNourish: description has trailing whitespace
+Verse.Log:Error(String, Boolean)
+Verse.DefDatabase`1:ErrorCheckAllDefs()
+System.Reflection.MonoMethod:InternalInvoke(Object, Object[], Exception&)
+System.Reflection.MonoMethod:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+Verse.GenGeneric:InvokeStaticMethodOnGenericType(Type, Type, String)
+Verse.PlayDataLoader:DoPlayLoad()
+Verse.PlayDataLoader:LoadAllPlayData(Boolean)
+Verse.<>c:<Start>b__6_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Translation data for language English has 129 errors. Generate translation report for more info.
+Verse.Log:Warning(String, Boolean)
+Verse.LoadedLanguage:InjectIntoData_AfterImpliedDefs()
+Verse.<>c:<DoPlayLoad>b__4_1()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+loaded body addon variants for Rabbie
+loading variants for Rabbielike/Tails/RBTail
+Variants found for Rabbielike/Tails/RBTail: 1
+loading variants for Rabbielike/Ear/RBEarLA
+Variants found for Rabbielike/Ear/RBEarLA: 3
+loading variants for Rabbielike/Ear/RBEarLB
+Variants found for Rabbielike/Ear/RBEarLB: 3
+loading variants for Rabbielike/Ear/RBEarRA
+Variants found for Rabbielike/Ear/RBEarRA: 3
+loading variants for Rabbielike/Ear/RBEarRB
+Variants found for Rabbielike/Ear/RBEarRB: 3
+
+Verse.Log:Message(String, Boolean)
+AlienRace.AlienPartGenerator:GenerateMeshsAndMeshPools()
+AlienRace.<>c__DisplayClass1_0:<.cctor>b__4(ThingDef_AlienRace)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AlienRace.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+loaded body addon variants for Ratkin
+loading variants for Body/RK_Tail
+Variants found for Body/RK_Tail: 1
+loading variants for Body/RK_EarLeft
+Variants found for Body/RK_EarLeft: 1
+loading variants for Body/RK_EarRight
+Variants found for Body/RK_EarRight: 1
+
+Verse.Log:Message(String, Boolean)
+AlienRace.AlienPartGenerator:GenerateMeshsAndMeshPools()
+AlienRace.<>c__DisplayClass1_0:<.cctor>b__4(ThingDef_AlienRace)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AlienRace.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+loaded body addon variants for Alien_Orassan
+loading variants for Things/Pawn/Humanlike/Tails/OTail
+Variants found for Things/Pawn/Humanlike/Tails/OTail: 1
+Variants found for Things/Pawn/Humanlike/Tails/OTailG: 1
+loading variants for EarLeft
+Variants found for EarLeft: 1
+loading variants for EarRight
+Variants found for EarRight: 1
+
+Verse.Log:Message(String, Boolean)
+AlienRace.AlienPartGenerator:GenerateMeshsAndMeshPools()
+AlienRace.<>c__DisplayClass1_0:<.cctor>b__4(ThingDef_AlienRace)
+System.Collections.Generic.List`1:ForEach(Action`1)
+AlienRace.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+Alien race successfully completed 125 patches with harmony.
+Verse.Log:Message(String, Boolean)
+AlienRace.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+Patching Madeline.ModMismatchWindow
+Verse.Log:Message(String, Boolean)
+ModMisMatchWindowPatch.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[ColorCodedMoodBar] ColorCodedMoodBar initialized
+Verse.Log:Message(String, Boolean)
+MoodBarPatch.Main:LogMessage(String)
+MoodBarPatch.Main:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[ShowDrafteesWeapon] Initialized
+Verse.Log:Message(String, Boolean)
+ShowDrafteesWeapon.Logger:LogMessage(String)
+ShowDrafteesWeapon.Main:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+RimFridge Harmony Patches:
+    Prefix:
+        ReachabilityUtility.CanReach - So pawns can get items in Wall-Fridges
+    Postfix:
+    GameComponentUtility.StartedNewGame - Apply power settings at start
+    GameComponentUtility.LoadedGame - Apply power settings on load
+    GenTemperature.TryGetTemperatureForCell - Overrides room temperature within the cells of the RimFridge
+    TradeShip.ColonyThingsWillingToBuy - Add items stored inside a wall-fridge to the trade list if in a room with an orbital beacon
+    FoodUtility.TryFindBestFoodSourceFor - Allow Prisoners to eat food from fridges
+Verse.Log:Message(String, Boolean)
+RimFridge.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[FieldMedic] patched get_BleedRate for Verse.Hediff_Injury
+Verse.Log:Message(String, Boolean)
+FieldMedic.HarmonyBase:PatchHediffWithComps(Harmony)
+FieldMedic.HarmonyBase:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[FieldMedic] patched get_BleedRate for Verse.Hediff_MissingPart
+Verse.Log:Message(String, Boolean)
+FieldMedic.HarmonyBase:PatchHediffWithComps(Harmony)
+FieldMedic.HarmonyBase:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[FieldMedic] inited
+Verse.Log:Message(String, Boolean)
+FieldMedic.HarmonyBase:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[Bubbles v1.6] Initialized
+Verse.Log:Message(String, Boolean)
+Bubbles.Mod:Log(String)
+Bubbles.Mod:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ArmorRacks loaded in 00:00:00.0003118
+Verse.Log:Warning(String, Boolean)
+ArmorRacks.Utils.ArmorRackJobUtil:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+Rimatomics found SoS2 -- Patching
+Verse.Log:Message(String, Boolean)
+Rimatomics.HarmonyPatches:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Starting.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.ApplyPatchIfRequired: Skipping Applying Patch: Embrasures
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patch:ApplyPatchIfRequired(Harmony)
+EnhancedDevelopment.Embrasures.<>c__DisplayClass0_0:<.cctor>b__0(Patch)
+System.Collections.Generic.List`1:ForEach(Action`1)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+EnhancedDevelopment.Embrasures.Patcher(): Complete.
+Verse.Log:Message(String, Boolean)
+EnhancedDevelopment.Embrasures.Patcher:.cctor()
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(IntPtr)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor(RuntimeTypeHandle)
+Verse.StaticConstructorOnStartupUtility:CallAll()
+Verse.<>c:<DoPlayLoad>b__4_2()
+Verse.LongEventHandler:ExecuteToExecuteWhenFinished()
+Verse.LongEventHandler:UpdateCurrentAsynchronousEvent()
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: Preparing research nodes
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Hyperweave: Complex clothing
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Super Acceleration: Nanomachine Industry
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Ship computer core: Shipbuilding basics
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Ship navigation: Shipbuilding basics
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Shuttle bay: Shipbuilding basics
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Cargo Shuttle: Shipbuilding basics
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for XF Armor Tech: Fabrication
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for XF Weapon Tech: Smithing
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Orassan exoskeleton: Multi-analyzer
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	redundant prerequisites for Orassan weaponry: Multi-analyzer
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	Lunararchitecture has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	Planetcocktail has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	ShipEngine has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	ShipPilotSeat has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	ShuttlePersonal has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisDrugFormula has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisAntibioticProduction has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisHealingPotionProduction has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisReceptorAntagonistProduction has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisSurgicalProgram has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisTransGenderSurgery has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisCureScarsSurgery has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisLongevityResearch has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisRemoveImplants has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisPsionwire has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisSpecialDevice has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisLyraeCurer has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	PolarisThermostat has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: 	RB_BeeHybridizing has a lower techlevel than (one of) it's prerequisites
+Verse.Log:Warning(String, Boolean)
+ResearchPal.Log:Warning(String, Object[])
+ResearchPal.Tree:CheckPrerequisites()
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: Reducing crossings
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: Finalizing layout
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+ResearchTree :: RèșèàṟçĥPàſ.PṟèṗàṟìƞğTṟèè.RèșṭòṟèQùèùè
+Verse.Log:Message(String, Boolean)
+ResearchPal.Log:Message(String, Object[])
+ResearchPal.Tree:Initialize()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent(Boolean&)
+Verse.LongEventHandler:LongEventsUpdate(Boolean&)
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Entry:Update()
+
+[HugsLib] initializing PeteTimesSix.SimpleSidearms, com.jkluch.HaulToStack, Autopsy, BetterPawnControl, ShipInteriorMod2, MURWallLight, LWM_DeepStorage, Psychology
+Verse.Log:Message(String, Boolean)
+HugsLib.Utils.ModLogger:Message(String, Object[])
+HugsLib.HugsLibController:EnumerateChildMods(Boolean)
+HugsLib.HugsLibController:DMD<DMD<LoadReloadInitialize_Patch1>?1819407488::LoadReloadInitialize_Patch1>(HugsLibController)
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+xdoc is still open. force-closing
+Verse.Log:Warning(String, Boolean)
+Madeline.ModMismatchFormatter.MetaHeaderUtility:BeginReading(String)
+Madeline.ModMismatchFormatter.ModContentPackExtension:ReadModsFromSaveHeader(Boolean)
+Madeline.ModMismatchFormatter.ModContentPackExtension:GetModsFromSave(Boolean)
+Madeline.ModMismatchFormatter.ModMismatchWindow:InitializePair()
+Madeline.ModMismatchFormatter.ModMismatchWindow:PreOpen()
+Verse.WindowStack:Add(Window)
+ModMisMatchWindowPatch.HarmonyPatches:CreateModMismatchWindow(Action, Boolean)
+ModMisMatchWindowPatch.HarmonyPatches:Prefix_TryCreateDialogForVersionMismatchWarnings(Boolean&, Action)
+Verse.ScribeMetaHeaderUtility:DMD<DMD<TryCreateDialogsForVersionMismatchWarnings_Patch1>?-1927809792::TryCreateDialogsForVersionMismatchWarnings_Patch1>(Action)
+Verse.PreLoadUtility:DMD<DMD<CheckVersionAndLoad_Patch1>?358118656::CheckVersionAndLoad_Patch1>(String, ScribeHeaderMode, Action)
+Verse.GameDataSaveLoader:CheckVersionAndLoadGame(String)
+RimWorld.Dialog_SaveFileList_Load:DoFileInteraction(String)
+RimWorld.Dialog_FileList:DoWindowContents(Rect)
+Verse.Window:InnerWindowOnGUI(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Loading game from file New Beginning1 with mods:
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - UnlimitedHugs.HugsLib
+  - Haplo.Miscellaneous.Core
+  - EdB.PrepareCarefully
+  - erdelf.HumanoidAlienRaces
+  - VanillaExpanded.VFECore
+  - VanillaExpanded.VFEMedical
+  - VanillaExpanded.VAPPE
+  - VanillaExpanded.VARME
+  - VanillaExpanded.VAECD
+  - VanillaExpanded.VAEAS
+  - VanillaExpanded.VFESecurity
+  - VanillaExpanded.VAED
+  - VanillaExpanded.VFEProduction
+  - VanillaExpanded.VWE
+  - VanillaExpanded.VHE
+  - VanillaExpanded.VAET
+  - VanillaExpanded.VAEIS
+  - VanillaExpanded.VAEBF
+  - VanillaExpanded.VWEQ
+  - VanillaExpanded.VAETR
+  - VanillaExpanded.VAETS
+  - VanillaExpanded.VCEF
+  - VanillaExpanded.VEE
+  - VanillaExpanded.VFEFarming
+  - VanillaExpanded.VAEAU
+  - VanillaExpanded.VFEArt
+  - VanillaExpanded.VWEL
+  - Madeline.ModMismatchFormatter
+  - sarg.smartspeed
+  - GHXX.TechAdvancing
+  - hobtook.mortaraccuracy
+  - Owlchemist.BetterVanillaMasking
+  - PeteTimesSix.SimpleSidearms
+  - Dubwise.DubsMintMenus
+  - crlsniper.realisticrooms
+  - bal.colonyleadership
+  - LingLuo.MoveSteamGeyser
+  - dismarzero.VGP.VGPVegetableGarden
+  - dismarzero.VGP.VGPGardenCanning
+  - dismarzero.VGP.VGPGardenFabrics
+  - dismarzero.VGP.VGPGardenDrinks
+  - dismarzero.VGP.VGPGardenGourmet
+  - dismarzero.VGP.VGPGardenMedicine
+  - dismarzero.VGP.VGPMoreVeggies
+  - dismarzero.VGP.VGPGardenResources
+  - dismarzero.VGP.VGPThreeSistersPlants
+  - dismarzero.VGP.VGPGardenTools
+  - dismarzero.VGP.XtraTreesandFlowers
+  - sandy.rpgstyleinventory
+  - brrainz.cameraplus
+  - jkluch.HaulToStack
+  - StrongBackByIndeed.ReuploadByMastice
+  - tammybee.raiderinfo
+  - Uuugggg.ShareTheLoad
+  - brrainz.reversecommands
+  - brrainz.samespot
+  - Taveron.IncreasedStack
+  - brrainz.rangefinder
+  - Smuffle.HarvestOrgansPostMortem
+  - Extracting.Organs
+  - tikubonn.DontBlockDoor
+  - walkingproblem.aaf
+  - FrozenSnowFox.FilthVanishesWithRainAndTime
+  - Oblitus.AnimalsLogic
+  - ratys.madskills
+  - Haplo.Miscellaneous.MapGenerator
+  - CrashM.ColorCodedMoodBar.11
+  - targhetti.ShowDrafteesWeapon
+  - VouLT.BetterPawnControl
+  - Versengt.MoreTradeShips
+  - Uuugggg.ReplaceStuff
+  - tradingspot.kv.rw
+  - rimfridge.kv.rw
+  - neceros.simplymorebridgesmedieval
+  - RunneLatki.RabbieRaceMod
+  - Solaris.RatkinRaceMod
+  - Dorely.BetaTraps
+  - velc.HatsDisplaySelection
+  - Flyfire2002.FieldMedic
+  - CP.Chicken.Mitchell.Hairstyles
+  - GloomyLynx.DragonianRace
+  - Jaxe.Bubbles
+  - Lat.VeeHair
+  - Gloomy.GloomyHairMk2
+  - aRandomKiwi.HuntForMe
+  - rimsenal.hair
+  - MengDe.FE3H.AshenWolvesHair
+  - GMH158.HololiveHHair
+  - Vanya.Agent.MangaFace
+  - Gloomy.GloomyFaceMk2
+  - Vanya.Agent.MyCuteEar
+  - Vanya.Agent.LolidropHairshop
+  - ratys.rtfuse
+  - kentington.saveourship2
+  - Xeva.XevaFaction.11
+  - fridgeBaron.TechSales
+  - khamenman.armorracks
+  - Dalrae.GloomyDeco
+  - sarg.alphabiomes
+  - InfiernosAxx.WeaponsoftheGods
+  - aRandomKiwi.MercenariesForMe
+  - sarg.alphaanimals
+  - Vanya.Polarisbloc.CoreLab
+  - Vanya.Polarisbloc.SecurityForce
+  - Vanya.Polarisbloc.Mechenemy
+  - Ykara.EPOE
+  - Solaris.EnhancedBattery
+  - Dubwise.Rimefeller
+  - tikubonn.AnestheticGunMod
+  - Chowdurr.CryogenicGenerator
+  - vat.epoeforked
+  - HALO.RSF
+  - sarg.rimbees
+  - dianawinters.Orassans
+  - Dubwise.Rimatomics
+  - sarg.geneticrim
+  - sarg.geneticrimalphaanimals
+  - sarg.geneticrimrimbees
+  - Solaris.FurnitureBase
+  - rimsenal.core
+  - rimsenal.security
+  - rimsenal.federation
+  - rimsenal.feral
+  - rimsenal.EVP
+  - spoonshortage.rimkea
+  - Haplo.Miscellaneous.Training
+  - ExStorage.Common.Core
+  - Telkir.TMods.MoreFloors
+  - GT.Sam.FishingNets
+  - Murmur.WallLight
+  - Haplo.Miscellaneous.Robots
+  - Alaestor.MiscRobots.PlusPlus
+  - leion247658.MiscVHCraftableHRobots
+  - LWM.DeepStorage
+  - ratys.rtsolarflareshield
+  - Nif.VanillaFences
+  - Jaxxa.ED.Embrasures
+  - GT.Sam.GlitterTechNS
+  - GT.Sam.TilledSoil
+  - GT.Sam.Furnace
+  - GT.Sam.DyeVat
+  - spoonshortage.ADogSaidAnimalProsthetics
+  - Vanya.Agent.HouseMaidNukos
+  - neceros.simpleturrets
+  - Dango.HardworkingNukos
+  - leafzxg.Thrumbo.ThrumboExtension
+  - Bichang.Frilleus
+  - Bichang.Kyulen
+  - Nationality.Psychology.UnofficialUpdate
+  - tikubonn.AnestheticTurretMod
+  - Bichang.WhiteFox
+  - Bichang.Huri
+  - Cabbage.RimCities
+  - notfood.ResearchPal
+Verse.Log:Message(String, Boolean)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Vanilla Expanded - Settings loaded
+Verse.Log:Message(String, Boolean)
+VEE.Settings.WorldComp:FinalizeInit()
+RimWorld.Planet.WorldComponentUtility:FinalizeInit(World)
+RimWorld.Planet.World:FinalizeInit()
+Verse.Game:DMD<DMD<LoadGame_Patch2>?1373389184::LoadGame_Patch2>(Game)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[Tech Advancing] [Information] Loading finished.
+Verse.Log:Message(String, Boolean)
+TechAdvancing.LogOutput:WriteLogMessage(Errorlevel, String)
+TechAdvancing.MapCompSaveHandler:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Map:ExposeComponents()
+Verse.Map:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Game:DMD<DMD<LoadGame_Patch2>?1373389184::LoadGame_Patch2>(Game)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Could not find class QualityBuilder.QualityBuilder_MapComponent while resolving node li. Trying to use Verse.MapComponent instead. Full node: <li Class="QualityBuilder.QualityBuilder_MapComponent"><qbUseMapSettings>True</qbUseMapSettings><bestConstructorOverride>null</bestConstructorOverride></li>
+Verse.Log:Error(String, Boolean)
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Map:ExposeComponents()
+Verse.Map:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Game:DMD<DMD<LoadGame_Patch2>?1373389184::LoadGame_Patch2>(Game)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+SaveableFromNode exception: System.ArgumentException: Can't load abstract class Verse.MapComponent
+  at Verse.ScribeExtractor.SaveableFromNode[T] (System.Xml.XmlNode subNode, System.Object[] ctorArgs) [0x0012b] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+Subnode:
+<li Class="QualityBuilder.QualityBuilder_MapComponent"><qbUseMapSettings>True</qbUseMapSettings><bestConstructorOverride>null</bestConstructorOverride></li>
+Verse.Log:Error(String, Boolean)
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Map:ExposeComponents()
+Verse.Map:ExposeData()
+Verse.ScribeExtractor:SaveableFromNode(XmlNode, Object[])
+Verse.Scribe_Collections:Look(List`1&, Boolean, String, LookMode, Object[])
+Verse.Scribe_Collections:Look(List`1&, String, LookMode, Object[])
+Verse.Game:DMD<DMD<LoadGame_Patch2>?1373389184::LoadGame_Patch2>(Game)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+[Tech Advancing] [Information] Loading finished.
+Verse.Log:Message(String, Boolean)
+TechAdvancing.LogOutput:WriteLogMessage(Errorlevel, String)
+TechAdvancing.MapCompSaveHandler:ExposeData()
+Verse.CrossRefHandler:ResolveAllCrossReferences()
+Verse.ScribeLoader:FinalizeLoading()
+Verse.Game:DMD<DMD<LoadGame_Patch2>?1373389184::LoadGame_Patch2>(Game)
+Verse.SavedGameLoaderNow:DMD<DMD<LoadGameFromSaveFileNow_Patch1>?-255902208::LoadGameFromSaveFileNow_Patch1>(String)
+Verse.<>c:<Start>b__1_1()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.<>c:<UpdateCurrentAsynchronousEvent>b__27_0()
+System.Threading.ThreadHelper:ThreadStart_Context(Object)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object, Boolean)
+System.Threading.ExecutionContext:Run(ExecutionContext, ContextCallback, Object)
+System.Threading.ThreadHelper:ThreadStart()
+
+Rabbie
+Verse.Log:Message(String, Boolean)
+AlienRace.HarmonyPatches:DesignatorAllowedPostfix(Designator, Boolean&)
+RimWorld.GameRules:DMD<DMD<DesignatorAllowed_Patch1>?-1160593920::DesignatorAllowed_Patch1>(GameRules, Designator)
+Verse.<get_ResolvedAllowedDesignators>d__7:MoveNext()
+System.Collections.Generic.List`1:InsertRange(Int32, IEnumerable`1)
+System.Collections.Generic.List`1:AddRange(IEnumerable`1)
+Verse.GizmoGridDrawer:DrawGizmoGrid(IEnumerable`1, Single, Gizmo&)
+RimWorld.ArchitectCategoryTab:DesignationTabOnGUI()
+RimWorld.MainTabWindow_Architect:ExtraOnGUI()
+Verse.WindowStack:WindowStackOnGUI()
+RimWorld.UIRoot_Play:UIRootOnGUI()
+Verse.Root:OnGUI()
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at (wrapper dynamic-method) RimWorld.GenConstruct.DMD<DMD<CanPlaceBlueprintAt_Patch1>?-141258240::CanPlaceBlueprintAt_Patch1>(intptr,Verse.BuildableDef,Verse.IntVec3,Verse.Rot4,Verse.Map,bool,Verse.Thing,Verse.Thing,Verse.ThingDef)
+  at (wrapper dynamic-method) RimWorld.Designator_Build.DMD<DMD<CanDesignateCell_Patch2>?-882197120::CanDesignateCell_Patch2>(RimWorld.Designator_Build,intptr,Verse.IntVec3)
+  at RimWorld.Designator_Place.SelectedUpdate () [0x00035] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.Designator_Build.SelectedUpdate () [0x00000] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00027] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+Verse.Log:Error(String, Boolean)
+RimWorld.UIRoot_Play:UIRootUpdate()
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Play:DMD<DMD<Update_Patch1>?-1805371776::Update_Patch1>(Root_Play)
+
+Root level exception in OnGUI(): System.NullReferenceException: Object reference not set to an instance of an object
+  at (wrapper dynamic-method) RimWorld.GenConstruct.DMD<DMD<CanPlaceBlueprintAt_Patch1>?-141258240::CanPlaceBlueprintAt_Patch1>(intptr,Verse.BuildableDef,Verse.IntVec3,Verse.Rot4,Verse.Map,bool,Verse.Thing,Verse.Thing,Verse.ThingDef)
+  at (wrapper dynamic-method) RimWorld.Designator_Build.DMD<DMD<CanDesignateCell_Patch2>?-882197120::CanDesignateCell_Patch2>(RimWorld.Designator_Build,intptr,Verse.IntVec3)
+  at Verse.DesignatorManager.ProcessInputEvents () [0x00043] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.MapInterface.HandleMapClicks () [0x0000f] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.UIRoot_Play.UIRootOnGUI () [0x00089] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at Verse.Root.OnGUI () [0x0003d] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+Verse.Log:Error(String, Boolean)
+Verse.Root:OnGUI()
+
+Exception in UIRootUpdate: System.NullReferenceException: Object reference not set to an instance of an object
+  at (wrapper dynamic-method) RimWorld.GenConstruct.DMD<DMD<CanPlaceBlueprintAt_Patch1>?-141258240::CanPlaceBlueprintAt_Patch1>(intptr,Verse.BuildableDef,Verse.IntVec3,Verse.Rot4,Verse.Map,bool,Verse.Thing,Verse.Thing,Verse.ThingDef)
+  at (wrapper dynamic-method) RimWorld.Designator_Build.DMD<DMD<CanDesignateCell_Patch2>?-882197120::CanDesignateCell_Patch2>(RimWorld.Designator_Build,intptr,Verse.IntVec3)
+  at RimWorld.Designator_Place.SelectedUpdate () [0x00035] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.Designator_Build.SelectedUpdate () [0x00000] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at Verse.DesignatorManager.DesignatorManagerUpdate () [0x00013] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.MapInterface.MapInterfaceUpdate () [0x00027] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+  at RimWorld.UIRoot_Play.UIRootUpdate () [0x00015] in <33b99ab6cf5748ec8fe371b3321b9db6>:0 
+Verse.Log:Error(String, Boolean)
+RimWorld.UIRoot_Play:UIRootUpdate()
+Verse.Root:DMD<DMD<Update_Patch1>?1760659200::Update_Patch1>(Root)
+Verse.Root_Play:DMD<DMD<Update_Patch1>?-1805371776::Update_Patch1>(Root_Play)
